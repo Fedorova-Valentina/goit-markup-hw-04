@@ -176,6 +176,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   width: 169px;
   height: 56px;
@@ -210,6 +211,10 @@ button[type="button"] {
 }
 .about-item {
   width: calc((100% - 72px) / 4);
+}
+.about-icon {
+  width: 264px;
+  height: 112px;
 }
 
 .about-title {
@@ -273,6 +278,19 @@ button[type="button"] {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team-icon {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+.icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
 }
 .card {
   padding-top: 120px;
@@ -340,6 +358,12 @@ button[type="button"] {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.social-container {
+  width: 280px;
+  height: 80px;
+  display: flex;
+  align-items: center;
 }
 .nav-link:hover,
 .nav-link:focus,
