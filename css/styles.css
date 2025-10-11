@@ -305,6 +305,10 @@ button[type="button"] {
   height: 40px;
   fill: #f4f4fd;
 }
+.team-icon-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .team-icon-link {
   width: 40px;
   height: 40px;
@@ -396,6 +400,7 @@ button[type="button"] {
   align-items: baseline;
   margin-right: 120px;
 }
+
 .page-footer {
   padding: 100px 0;
   background: #2e2f42;
@@ -427,8 +432,6 @@ button[type="button"] {
 }
 
 .social-container {
-  width: 280px;
-  height: 80px;
   display: flex;
   align-items: center;
 }
