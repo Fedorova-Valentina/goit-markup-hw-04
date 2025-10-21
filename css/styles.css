@@ -364,6 +364,8 @@ button[type="button"] {
   transform: translateY(0%);
 }
 .card-info {
+  width: 100%;
+  height: 100%;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -446,7 +448,7 @@ button[type="button"] {
 .icons-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
   list-style: none;
   padding: 0;
   margin: 0;
