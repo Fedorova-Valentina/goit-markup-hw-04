@@ -403,15 +403,16 @@ button[type="button"] {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.container.footer-container {
+.footer-container {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+
   max-width: 1158px;
   padding: 0 15px;
 
@@ -445,7 +446,7 @@ button[type="button"] {
 .icons-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -462,7 +463,6 @@ button[type="button"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
 
   margin: 0 auto;
   width: 40px;
