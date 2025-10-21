@@ -408,19 +408,15 @@ button[type="button"] {
   display: flex;
   align-items: baseline;
 }
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
 
-  gap: 16px;
-}
 .footer {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
   max-width: 1158px;
   padding: 0 15px;
+
+  margin: 0 auto;
 }
 
 .page-footer {
