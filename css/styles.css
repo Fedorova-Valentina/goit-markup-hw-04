@@ -291,6 +291,7 @@ button[type="button"] {
   color: #2e2f42;
 }
 .team-title-text {
+  margin-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -408,19 +409,12 @@ button[type="button"] {
   color: #434455;
 }
 .footer-container {
-  display: flex;
-  align-items: baseline;
   margin-right: 120px;
 }
 
 .footer {
   display: flex;
   align-items: baseline;
-
-  max-width: 1158px;
-  padding: 0 15px;
-
-  margin: 0 auto;
 }
 
 .page-footer {
@@ -487,10 +481,7 @@ button[type="button"] {
 .icon-list-item-link:focus {
   background-color: #31d0aa;
 }
-.social-container {
-  display: flex;
-  align-items: center;
-}
+
 .social-text {
   font-weight: 500;
   font-size: 16px;
